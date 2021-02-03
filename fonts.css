@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'gotham_pro';
+    scr: url('fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_pro_bold';
+    src: url('fonts/GothamPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'gotham_pro_black_it';
+    src: url('fonts/GothamPro-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'gotham_pro_black';
+    src: url('fonts/GothamPro-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
