@@ -27,11 +27,8 @@ body {
   font: 12px/12px gotham_pro_black;
   color: #000;
 }
-.menu__item:last-child {
-  margin-right: 10px;
-}
 .menu__search {
-  width: 190px; /* Ширина поля с кнопкой */
+  width: 170px; /* Ширина поля с кнопкой */
   border: 1px solid #000000; /* Параметры рамки */
   height: 0px; /* Минимальная высота */
   display: flex;
