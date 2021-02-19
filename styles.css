@@ -51,7 +51,7 @@ body {
 background:no-repeat url(img/main-pic.svg);
 font:30px/29px gotham_pro_black;
 color: #FFFFFF;
-padding: 140px 0 85px 47px;
+padding: 77px 0 90px 52px;
 }
 .main__title-paragraph{
 display: flex;
@@ -61,10 +61,11 @@ color: #FFFFFF;
 .main__title-product{
   font: 22px gotham_pro_black;
   text-align: center;
+  margin: 1px 0 24px 9px;
 }
 .main__column{
-  max-width: 553px;
-  margin: auto;
+  max-width: 676px;
+  margin: 0 0px 18px 80px;
   display:flex;
   justify-content:space-between;
 }
