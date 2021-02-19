@@ -18,7 +18,7 @@ body {
 .menu{
   display: flex;
   align-items: center;
-  margin: 15px 165px 0 0;
+  margin: 15px 0px 0 0;
 }
 .menu__item{
   position: relative;
@@ -42,7 +42,6 @@ body {
   border: none; /* Убираем рамку */
   background: no-repeat url(img/search.svg); /* Параметры фона */
 }
-
 .main{
   display: flex;
   flex-direction: column;
