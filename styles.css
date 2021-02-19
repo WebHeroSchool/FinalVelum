@@ -1,3 +1,139 @@
+body {
+  margin: 0;
+}
+.wrapper{
+  width: 90%;
+  margin: auto;
+ }
+.header {
+  display: flex;
+  justify-content:space-between;
+
+}
+.logo{
+  background: no-repeat url('img/logo.svg');
+  width: 55px;
+  height: 55px;
+  margin:33px 0 16px 0;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  margin: 15px 165px 0 0;
+}
+.menu__item{
+  position: relative;
+  margin-right: 34px;
+  font: 12px/12px gotham_pro_black;
+  color: #000;
+}
+.menu__item:last-child {
+  margin-right: 10px;
+}
+.menu__search {
+  width: 190px; /* Ширина поля с кнопкой */
+  border: 1px solid #000000; /* Параметры рамки */
+  height: 0px; /* Минимальная высота */
+  display: flex;
+ }
+ input[type="search"] {
+  border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+ }
+ input[type="submit"] {
+  width: 13px; /* Ширина кнопки */
+  height: 14px; /* Высота кнопки */
+  border: none; /* Убираем рамку */
+  background: no-repeat url(img/search.svg); /* Параметры фона */
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main__title{
+background:no-repeat url(img/main-pic.svg);
+font:30px/29px gotham_pro_black;
+color: #FFFFFF;
+padding: 140px 0 85px 47px;
+}
+.main__title-paragraph{
+display: flex;
+font:12px/11px gotham_pro_black;
+color: #FFFFFF;
+z-index: 1;
+}
 .main__title-product{
-  font-family: gotham_pro;
+  font: 22px gotham_pro_black;
+  text-align: center;
+}
+.main__column{
+  max-width: 553px;
+  margin: auto;
+  display:flex;
+  justify-content:space-between;
+}
+.main__column-icon{
+  display:flex;
+  justify-content:space-between;
+}
+.main__column-text{
+  display:flex;
+  align-items: flex-end;
+}
+.main__column-price{
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.main__subtitle{
+
+}
+.main__subtitle-paragraph{
+
+}
+.main__subtitle-details{
+
+}
+.main__title-second{
+
+}
+.main__title-second_subtitle{
+}
+.second__column{
+
+}
+.second__column-name{
+
+}
+.second__column-text{
+
+}
+.second__column-details{
+
+}
+.aside{
+
+}
+.aside__title{
+
+}
+.footer{
+
+}
+.footer__column-name{
+
+}
+.footer__column{
+
+}
+.footer__column-text{
+
+}
+.button{
+
+}
+.footer__text{
+
 }
