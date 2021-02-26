@@ -16,25 +16,39 @@ body {
 }
 .menu{
   display: flex;
-align-items: center;
-margin: 13px 0 0 33px;
+  align-items: center;
+  margin: 13px 0 0 33px;
 }
 .menu__item{
   position: relative;
-  margin-right: 34px;
+  margin-right: 35px;
   font: 12px/12px gotham_pro_black;
   color: #000;
+  text-decoration: none;
 }
-.menu__item:last-child {
-  margin-right: 10px;
+.menu__item:nth-child(5n){
+  margin-right: 107px;
+}
+.menu__item:nth-child(7n){
+  margin-right: 3px;
+  left: 34;
+}
+.menu__item:nth-child(8n){
+  left: 57px;
+  bottom: 2px;
+}
+
+.menu__item:last-child{
+  left: 48px;
 }
 .menu__search {
-  width: 170px; /* Ширина поля с кнопкой */
+  width: 156px; /* Ширина поля с кнопкой */
   border: 1px solid #000000; /* Параметры рамки */
   height: 0px; /* Минимальная высота */
   display: flex;
   position: relative;
-  top: 8px;
+  top: 13px;
+  left: 36px;
  }
  input[type="search"] {
   border: none; /* Убираем рамку */
@@ -44,13 +58,14 @@ margin: 13px 0 0 33px;
   width: 13px; /* Ширина кнопки */
   height: 14px; /* Высота кнопки */
   border: none; /* Убираем рамку */
-  background: no-repeat url(img/search.svg);
+  background: no-repeat url(img/search.png);
   display: flex;
   position: relative;
-  bottom: 15px;/* Параметры фона */
+  bottom: 19px;/* Параметры фона */
+  right: 28px;
 }
 .main{
-  
+
 }
 .main__title{
 background:no-repeat url(img/main-pic.svg);
@@ -73,10 +88,10 @@ color: white;
 .main__title-product{
   font: 22px gotham_pro_black;
   text-align: center;
-  margin: 2px 0px 19px 0px;
+  margin: 61px 0px 19px 0px;
 }
 .main__column{
-  margin: 0 0px 51px 0;
+  margin: 0 44px 52px 45px;
   display:flex;
   justify-content:space-between;
 }
@@ -95,10 +110,11 @@ border-left: 1px solid #000000;
 margin: 15px;
 margin-top: 30px;
 }
-.main__paragragraph{
-display: flex;
-background-color: black;
-}
+.main__paragragraph {
+    display: flex;
+    background-color: black;
+    padding: 0px 0px 0px 6px;
+    margin: 47px;}
 .video {
   /* чтобы можно было внутри всё разместить через absolute */
     position: relative;
@@ -135,17 +151,24 @@ height: 442px;
   display: grid;
 }
 .main__paragragraph-subtitle{
-  padding: 119px 0 0px 56px;
+  padding: 118px 0 0px 62px;
   font: 22px gotham_pro_black;
   color: #FFFFFF;
 }
 .main__paragragraph-discription{
-  font: 13px gotham_pro_black;
-  color: #FFFFFF;
-  padding: 0px 29px 0px 38px;
+font: 13px gotham_pro_black;
+color: #FFFFFF;
+padding: 1px 51px 1px 42px;
+position: relative;
+left: 17px;
+bottom: 49px;
 }
 .main__paragragraph-details{
-    color: #FFFFFF;
+  font: 14px gotham_pro_black;
+  color: #FFFFFF;
+position: relative;
+bottom: 105px;
+margin: 27px 0 22px 62px;
 }
 .main__paragragraph-pointer{
 
@@ -153,7 +176,7 @@ height: 442px;
 .second__column{
 display: flex;
 justify-content: space-between;
-padding: 0 0 70px 0;
+padding: 0px 48px 71px 20px;
 }
 .main__title-second_subtitle{
     font: 22px gotham_pro_black;
@@ -164,7 +187,7 @@ padding: 0 0 70px 0;
   max-width: 129px;
 }
 .aside{
-padding: 0 0 137px 0;
+padding: 0 0 90px 45px;
 }
 .aside__table{
 
@@ -175,20 +198,23 @@ text-align: end;
 text-transform: uppercase;
 color: #000000;
 opacity: 0.3;
-margin: 15px 0px 8px 0;
+margin: 15px 0 7px 0;
+margin-right: 42px;
 
 }
 .footer{
 background: black;
 position: absolute;
-width: 933px;
+width: 1024px;
 height: 296px;
 
 }
 .footer__header{
-display: flex;
-justify-content: space-around;
-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+  margin: 54px 23px 0px 66px;
+  font: 12px gotham_pro_black;
 }
 
 .wrap ol{
@@ -196,6 +222,7 @@ color: #FFFFFF;
   -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:4;
+margin: 0 143px 0 49px;
 
 }
 .footer__column{
@@ -205,8 +232,27 @@ column-count:4;
 
 }
 .button{
-
+  font: 12px gotham_pro_black, sans-serif;
+  display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main__button:hover,.main__button:active {
+  background-color: #fff;
+  color: #000;
+  box-shadow: none;
+  overflow: hidden;
 }
 .footer__text{
-
+  color: #FFFFFF;
+  font: 12px gotham_pro_black;
+  position: absolute;
+  bottom: 23px;
+  right: 429px;
 }
