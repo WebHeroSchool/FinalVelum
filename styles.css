@@ -7,6 +7,7 @@ body {
  }
 .header {
   display: flex;
+  justify-content:space-between;
 }
 .logo{
   background: no-repeat url('img/logo.svg');
@@ -16,8 +17,8 @@ body {
 }
 .menu{
   display: flex;
-align-items: center;
-margin: 13px 0 0 33px;
+  align-items: center;
+  margin: 15px 0px 0 0;
 }
 .menu__item{
   position: relative;
@@ -25,16 +26,11 @@ margin: 13px 0 0 33px;
   font: 12px/12px gotham_pro_black;
   color: #000;
 }
-.menu__item:last-child {
-  margin-right: 10px;
-}
 .menu__search {
   width: 170px; /* Ширина поля с кнопкой */
   border: 1px solid #000000; /* Параметры рамки */
   height: 0px; /* Минимальная высота */
   display: flex;
-  position: relative;
-  top: 8px;
  }
  input[type="search"] {
   border: none; /* Убираем рамку */
@@ -44,13 +40,12 @@ margin: 13px 0 0 33px;
   width: 13px; /* Ширина кнопки */
   height: 14px; /* Высота кнопки */
   border: none; /* Убираем рамку */
-  background: no-repeat url(img/search.svg);
-  display: flex;
-  position: relative;
-  bottom: 15px;/* Параметры фона */
+  background: no-repeat url(img/search.svg); /* Параметры фона */
 }
 .main{
-  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .main__title{
 background:no-repeat url(img/main-pic.svg);
@@ -59,24 +54,18 @@ color: #FFFFFF;
 padding: 77px 0 90px 52px;
 }
 .main__title-paragraph{
-position: absolute;
-top: 290px;
-left: 101px;
+display: flex;
 font:12px/11px gotham_pro_black;
-color: white;
-}
-.main__pointer{
-  position: absolute;
-  top: 2px;
-  left: 82px;
+color: #FFFFFF;
 }
 .main__title-product{
   font: 22px gotham_pro_black;
   text-align: center;
-  margin: 2px 0px 19px 0px;
+  margin: 1px 0 24px 9px;
 }
 .main__column{
-  margin: 0 0px 51px 0;
+  max-width: 676px;
+  margin: 0 0px 18px 80px;
   display:flex;
   justify-content:space-between;
 }
@@ -84,118 +73,51 @@ color: white;
   display:flex;
   justify-content:space-between;
 }
-.main__column-icon:last-child{
-  margin-left: 10px;
+.main__column-text{
+  display:flex;
+  align-items: flex-end;
 }
-.main__column-icon_line {
-width: 0px;
-height: 101px;
-opacity: 0.2;
-border-left: 1px solid #000000;
-margin: 15px;
-margin-top: 30px;
+.main__column-price{
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-.main__paragragraph{
-display: flex;
-background-color: black;
-}
-.video {
-  /* чтобы можно было внутри всё разместить через absolute */
-    position: relative;
-width: 2200;
-height: 442px;
-}
-
-.video__img {
-  position: absolute;
-  top: 59px;
-  left: 25px;
-}
-
-.video__play-icon {
-  height: 33px;
-  width: 33px;
-  border-radius: 50%;
-  border: 5px solid rgba(255,255,255,.5);
-  background: #FFFFFF;
-  position: absolute;
-  left: 49;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-.video__play-triangle {
-  margin-left: 15px;
-  margin-top: 11px;
-  border: 6px solid transparent;
-  border-left: 6px solid rgba(0, 0, 0, 0.5);
-}
-.main__paragragraph-block{
-  display: grid;
-}
-.main__paragragraph-subtitle{
-  padding: 119px 0 0px 56px;
-  font: 22px gotham_pro_black;
-  color: #FFFFFF;
-}
-.main__paragragraph-discription{
-  font: 13px gotham_pro_black;
-  color: #FFFFFF;
-  padding: 0px 29px 0px 38px;
-}
-.main__paragragraph-details{
-    color: #FFFFFF;
-}
-.main__paragragraph-pointer{
+.main__subtitle{
 
 }
-.second__column{
-display: flex;
-justify-content: space-between;
-padding: 0 0 70px 0;
+.main__subtitle-paragraph{
+
+}
+.main__subtitle-details{
+
+}
+.main__title-second{
+
 }
 .main__title-second_subtitle{
-    font: 22px gotham_pro_black;
-    text-align: center;
-  margin: 90px 0 41px 0;
 }
-.img{
-  max-width: 129px;
+.second__column{
+
+}
+.second__column-name{
+
+}
+.second__column-text{
+
+}
+.second__column-details{
+
 }
 .aside{
-padding: 0 0 137px 0;
-}
-.aside__table{
 
 }
 .aside__title{
-font: 18px gotham_pro_black;
-text-align: end;
-text-transform: uppercase;
-color: #000000;
-opacity: 0.3;
-margin: 15px 0px 8px 0;
 
 }
 .footer{
-background: black;
-position: absolute;
-width: 933px;
-height: 296px;
 
 }
-.footer__header{
-display: flex;
-justify-content: space-around;
-color: #FFFFFF;
-}
-
-.wrap ol{
-  color: #FFFFFF;
-  -moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */
-column-count:4;
+.footer__column-name{
 
 }
 .footer__column{
