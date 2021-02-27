@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .wrapper{
   width: 90%;
@@ -64,9 +67,6 @@ body {
   bottom: 19px;/* Параметры фона */
   right: 28px;
 }
-.main{
-
-}
 .main__title{
 background:no-repeat url(img/main-pic.svg);
 font:30px/29px gotham_pro_black;
@@ -117,17 +117,15 @@ margin-top: 30px;
     margin: 47px;}
 .video {
   /* чтобы можно было внутри всё разместить через absolute */
-    position: relative;
+position: relative;
 width: 2200;
 height: 442px;
 }
-
 .video__img {
   position: absolute;
   top: 59px;
   left: 25px;
 }
-
 .video__play-icon {
   height: 33px;
   width: 33px;
@@ -170,27 +168,21 @@ position: relative;
 bottom: 105px;
 margin: 27px 0 22px 62px;
 }
-.main__paragragraph-pointer{
-
-}
 .second__column{
 display: flex;
 justify-content: space-between;
 padding: 0px 48px 71px 20px;
 }
 .main__title-second_subtitle{
-    font: 22px gotham_pro_black;
-    text-align: center;
-  margin: 90px 0 41px 0;
+font: 22px gotham_pro_black;
+text-align: center;
+margin: 90px 0 41px 0;
 }
 .img{
-  max-width: 129px;
+max-width: 129px;
 }
 .aside{
 padding: 0 0 90px 45px;
-}
-.aside__table{
-
 }
 .aside__title{
 font: 18px gotham_pro_black;
@@ -200,30 +192,26 @@ color: #000000;
 opacity: 0.3;
 margin: 15px 0 7px 0;
 margin-right: 42px;
-
 }
 .footer{
 background: black;
 position: absolute;
 width: 1024px;
 height: 296px;
-
 }
 .footer__header{
-  display: flex;
+ display: flex;
   justify-content: space-around;
   color: #FFFFFF;
   margin: 54px 23px 0px 66px;
   font: 12px gotham_pro_black;
 }
-
 .wrap ol{
   color: #FFFFFF;
   -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:4;
 margin: 0 143px 0 49px;
-
 }
 .footer__column{
 
@@ -255,4 +243,42 @@ margin: 0 143px 0 49px;
   position: absolute;
   bottom: 23px;
   right: 429px;
+}
+@media (min-width:1025px)  {
+.header{
+margin-left:112px;
+}
+.main__title{
+font: 26px/29px gotham_pro_black;
+padding: 77px 0 103px 135px;
+background-position: center;
+}
+.main__title-paragraph {
+    left: 182px;
+}
+.video{
+  width: 1576px;
+}
+.main__paragragraph-subtitle {
+    padding: 96px 179px 11px 90px;
+}
+.main__paragragraph-discription {
+    font: 16px gotham_pro;
+    padding: 0px 197px 0 75px;
+  }
+.main__paragragraph-details{
+  margin: 31px 0 15px 92px;
+}
+.second__column{
+  padding: 0px 74px 71px 20;
+}
+.aside {
+  padding: 0 0 90px 109px;
+}
+.aside__title{
+margin-right: 128px;
+}
+.footer{
+  margin: 0 52px;
+}
 }
