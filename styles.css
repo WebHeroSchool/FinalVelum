@@ -244,17 +244,49 @@ margin: 0 143px 0 49px;
   bottom: 23px;
   right: 429px;
 }
+.footer__column{
+  font: 10px gotham_pro_black;
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0;
+  padding: 0px 0 0 34px;
+}
+.footer__column-text{
+  list-style-type: none;
+}
 @media (min-width:1025px)  {
 .header{
-margin-left:112px;
+margin-left:10px;
+}
+.menu{
+  margin: 13px 0 0 47px;
+}
+.menu__item:nth-child(5n) {
+    margin-right: 174px;
+  }
+.menu__item:nth-child(7n) {
+    margin-right: 26px;
+    left: 39px;
+}
+.menu__item:nth-child(8n) {
+    left: 48px;
+}
+.main__pointer{
+  position: absolute;
+  padding: 6px 22px
 }
 .main__title{
-font: 26px/29px gotham_pro_black;
-padding: 77px 0 103px 135px;
+font: 29px/29px gotham_pro_black;
+padding: 78px 0 105px 74px;
 background-position: center;
 }
 .main__title-paragraph {
-    left: 182px;
+  padding: 7px 0px 0px 31px;
+}
+.main__title-product{
+  margin: 47px 0px 15px 0px;
+}
+.main__column{
+  margin: 19px 80px 0 80px;
 }
 .video{
   width: 1576px;
