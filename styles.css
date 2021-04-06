@@ -1040,7 +1040,10 @@ margin: 6px 0 0 -18px;
  .img__gallary-hide{
    display: none;
  }
- .img__gallery:nth-child(4){
-   order: 1;
+ .img__gallary_mob7{
+   display: none;
+ }
+ .img__gallery_mob3{
+   order: 5;
  }
 }
