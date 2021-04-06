@@ -645,10 +645,6 @@ padding: 0 0 90px 12px;
 .second__section-column:nth-child(3n) {
 display: none;
 }
-.aside__gallery{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
-}
 .main__first{
   background: no-repeat url(img/img768.png);
   height: 412px;
@@ -1044,6 +1040,8 @@ margin: 6px 0 0 -18px;
    display: none;
  }
  .img__gallery_mob3{
-   order: 5;
+   order: 5
  }
+ .img__gallery_mob4{
+   order: 3;
 }
