@@ -11,9 +11,15 @@
     font-style: bold;
 }
 @font-face {
+    font-family: 'gotham_pro_medium';
+    scr: url('fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
     font-family: 'gotham_pro_light';
     src: url('fonts/GothamPro-Light.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 @font-face {
