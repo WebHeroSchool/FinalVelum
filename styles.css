@@ -853,17 +853,17 @@ margin: 40px 49px 32px 0px;
     width: 20px;
 }
 .triangle{
-  border-bottom: 35px solid #000;
-  border-right: 768px solid #fff;
-  outline: none;
-}
+  border: 35px solid transparent;
+  border-left: 734px solid #000;
+  border-bottom: 2px solid #000;
+  }
 .main__column{
     margin: 18px 14px 49px 49px;
 }
 .second__section-subtitle{
   color: white;
-  font: 29px gotham_pro_bold;
-  padding: 13px 0px 42px 0px;
+  font: 29.5px gotham_pro_bold;
+  padding: 11px 5px 40px 7px;
   margin: -1px 0px 0px 0px;
 }
 .pic {
@@ -878,7 +878,7 @@ margin: 40px 49px 32px 0px;
 }
 .second__section-name{
   color: white;
-  padding: 6px 0;
+  padding: 6px 0 8px 1px;
   font: 25px gotham_pro_bold;
 }
 .second__section-text{
@@ -906,9 +906,9 @@ margin: 40px 49px 32px 0px;
     margin-left: -22px;
 }
 .second__triangle{
-border-bottom: 36px solid #fff;
+border-bottom: 2px solid #fff;
 border-right: 768px solid #000;
-outline: none;
+border: 35px solid transparent;
 }
 .second__section{
   padding: 0 0 258px 0;
@@ -918,10 +918,10 @@ outline: none;
   .display: none;
 }
 .video__img {
-    top: 212px;
-    left: 25px;
-    width: 695px;
-    height: 389px;
+    top: 207px;
+    left: 27px;
+    width: 694px;
+    height: 392px;
   }
   .video__play-icon {
       height: 42px;
@@ -957,15 +957,18 @@ outline: none;
   .arrow{
     background: no-repeat url(img/arrow.png);
   }
+  .aside{
+    padding: 0 0 85px 46px;
+  }
   .aside__title{
     color:white;
     opacity: 1;
     opacity: 1;
     position: relative;
-    bottom: 176px;
-    font: 30px gotham_pro_black;
-    margin:  0 44px 0 0;
-    margin-bottom: -174px;
+    bottom: 190px;
+    font: 29.5px gotham_pro_black;
+    margin:  0 48px 0 0;
+    margin-bottom: -179px;
   }
   .aside__table{
     margin-left: 16px;
@@ -973,7 +976,7 @@ outline: none;
 .aside__gallery{
   display: flex;
 flex-wrap: wrap;
-padding: 11px 0 37px 0px;
+padding: 1px 0 37px 0px;
 }
 .img__gallary-hide{
   display: block;
@@ -982,7 +985,7 @@ padding: 11px 0 37px 0px;
 }
 .img__gallary{
   width: 169px;
-  height: 169px;
+  height: 171px;
 }
 .img{
 max-width: 167px;
