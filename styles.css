@@ -1112,10 +1112,9 @@ font: 12.5px/19px gotham_pro_light;
     margin: 0 2px;
   }
   .triangle {
-    border-bottom: 17px solid #000;
-    border-right: 768px solid #fff;
-    position: relative;
-    top: 44px;
+border: 35px solid transparent;
+border-left: 376px solid #000;
+border-bottom: 0px solid #000;
   }
   .main__paragragraph{
     width: 365px;
@@ -1148,8 +1147,9 @@ font: 12.5px/19px gotham_pro_light;
     border-right: 375px solid #fff;
   }
   .second__triangle{
-    border-right: 375px solid #000;
-    border-bottom: 18px solid #fff;
+  border: 17px solid transparent;
+  border-right: 340px solid #000;
+  border-top: 0 solid #000;
   }
   .video__play-icon{
     margin-left: 55px;
