@@ -906,9 +906,9 @@ margin: 40px 49px 32px 0px;
     margin-left: -22px;
 }
 .second__triangle{
-border-bottom: 2px solid #fff;
-border-right: 768px solid #000;
-border: 35px solid transparent;
+  border: 35px solid transparent;
+  border-right: 734px solid #000;
+  border-top: 2px solid #000;
 }
 .second__section{
   padding: 0 0 258px 0;
@@ -958,7 +958,7 @@ border: 35px solid transparent;
     background: no-repeat url(img/arrow.png);
   }
   .aside{
-    padding: 0 0 85px 46px;
+    padding: 0 0 84px 46px;
   }
   .aside__title{
     color:white;
@@ -990,14 +990,20 @@ padding: 1px 0 37px 0px;
 .img{
 max-width: 167px;
 }
+.footer{
+  height: 302px;
+}
 .footer__text{
-margin: 72px 0 0 287px;
+margin: 70px 0 0 288px;
+}
+.footer__column-text{
+font: 12.5px/19px gotham_pro_light;
 }
 .footer__wrap{
-  padding: 47px 5px 0 52px;
+  padding: 47px 6px 0 51px;
 }
 .footer__column2 {
-    margin: 1px 0 0 28px;
+    margin: -1px 0 0 32px;
 }
 .footer__column3 {
     margin: 0px 15px 0 41px;
@@ -1022,6 +1028,9 @@ margin: 72px 0 0 287px;
 .footer__link{
   margin: 4px 56px 0 0;
 }
+.footer__column-name {
+    padding: 9px 0 3px 0;
+  }
 }
 @media (max-width:375px)  {
   .body{
