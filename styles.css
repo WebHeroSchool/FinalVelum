@@ -307,10 +307,10 @@ body {
 .main__paragragraph-discription{
   font: 14px/18px gotham_pro_light,arial, helvetica, sans-serif;
   color: #FFFFFF;
-  padding: 0px 69px 0px 51px;
+  padding: 15px 69px 30px 51px;
   position: relative;
   left: 25px;
-  bottom: 47px;
+  bottom: 41px;
 }
 .main__paragragraph-details{
   font: 12px gotham_pro_black,arial, helvetica, sans-serif;
@@ -500,7 +500,7 @@ body {
   }
   .main__paragragraph-discription {
     font: 13px/17px gotham_pro_light,arial, helvetica, sans-serif;
-    padding: 5px 55px 0px 13px;
+    padding: 19px 55px 27px 13px;
   }
   .main__paragragraph-details{
     bottom: 100px;
@@ -1019,7 +1019,7 @@ body {
 }
 .main__paragragraph-discription{
    font: 20px/25px gotham_pro_light,arial, helvetica, sans-serif;
-   padding: 0 49px 0 11px;
+   padding: 12px 49px 0 11px;
    left: 0;
    margin-left: -31px;
    text-align: center;
@@ -1369,17 +1369,21 @@ body {
     height: 451px;
   }
   .main__paragragraph-subtitle{
-    padding: 48px 75px 12px 48px;
+    padding: 64px 0 45px 0;
     font: 20px gotham_pro_bold,arial, helvetica, sans-serif;
     text-align: center;
     position: relative;
-    right: 129px;
+    right: 127px;
+    margin: 0 -63px 0 180px;
+  }
+  .main__paragragraph-block{
+    max-width: 365px;
   }
   .main__paragragraph-discription {
     font: 14px/18px gotham_pro_light,arial, helvetica, sans-serif;
     padding: 0px 47px 0px 3px;
-    margin-left: -72px;
-    max-width: 280px;
+    margin-left: -74px;
+    max-width: 279px;
   }
   .second__section-column:nth-child(2n) {
     display: none;
@@ -1574,13 +1578,16 @@ body {
     width: 310px;
     margin: -1px 0 0 0px;
   }
+  .main__paragragraph-block{
+    max-width: 300px;
+  }
   .main__paragragraph-subtitle{
-    padding: 47px 46px 0 1px;
-    right: 123px;
+    margin: 0 -99px 0 155px;
+    padding: 64px 0 38px 0;
   }
   .main__paragragraph-discription {
-    padding: 15px 47px 0px 3px;
-    margin-left: -102px;
+    padding: 9px 0px 0px 29px;
+    margin-left: -128px;
   }
   .second__section-column:nth-child(2n) {
     display: none;
