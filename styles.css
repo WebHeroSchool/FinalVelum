@@ -1103,6 +1103,29 @@ body {
   padding: 9px 0 3px 0;
 }
 }
+@media (max-width:726px)  {
+  .triangle{
+    border-left: 691px solid #000;
+  }
+  .main__paragragraph{
+    width: 716px;
+  }
+  .second__triangle{
+   border-right: 691px solid #000;
+  }
+  .second__section-column{
+    padding: 0 24;
+  }
+  .main__column-icon {
+    padding: 0 51px 0 28px;
+  }
+  .video__img{
+    width: 673px;
+  }
+  .aside {
+    padding: 0 0 84px 24px;
+  }
+}
 @media (max-width:725px)  {
   .wrapper{
     width: 107%;
@@ -1115,6 +1138,11 @@ body {
   }
   .footer{
     width: 107%;
+  }
+}
+@media (max-width:697px)  {
+  .main__paragragraph{
+    width: 733px;
   }
 }
 @media (max-width:682px)  {
@@ -1138,6 +1166,21 @@ body {
   }
   .footer{
     width: 116%;
+  }
+}
+@media (max-width:653px)  {
+  .main__paragragraph{
+    width: 747px;
+  }
+  .main__paragragraph-subtitle {
+    padding: 67px 0 0 35px;
+  }
+  .main__paragragraph-discription{
+    padding: 12px 0 0 59px;
+    margin-left: -31px;
+  }
+  .video__img{
+    left: 32px;
   }
 }
 @media (max-width:646px)  {
@@ -1169,11 +1212,41 @@ body {
     right: 0;
     left: 650px;
   }
+  .main__column {
+    margin: 18px 14px 49px 79px;
+  }
+  .main__paragragraph{
+    width: 758px;
+  }
   .main__paragragraph-discription {
-    left: 109px;
+    left: 68px;
+  }
+  .main__paragragraph-subtitle{
+    padding: 64px 0 0 0;
+    margin-left: 76px;
+  }
+  .video__img {
+    left: 39px;
+  }
+  .second__section-body{
+    margin: 0 29px;
+  }
+  .aside__gallery{
+    padding: 1 0 37px 22px;
   }
   .footer{
     width: 123%;
+  }
+}
+@media (max-width:621px)  {
+  .wrapper{
+    width: 124%;
+  }
+  .main__paragragraph-discription {
+    left: 25px;
+  }
+  .footer{
+    width: 124%;
   }
 }
 @media (max-width:602px)  {
@@ -1233,22 +1306,20 @@ body {
     right: 0;
     left: 650px;
   }
+  .main__paragragraph{
+    width: 748px;
+  }
+  .main__paragragraph-subtitle {
+    margin-left: 112px;
+  }
   .main__paragragraph-discription {
-    left: 109px;
-  }
-  .footer{
-    width: 154%;
-  }
-}
-@media (max-width:501px)  {
-  .wrapper{
-    width: 163%;
+    left: 38px;
   }
   .main__paragragraph-block {
     margin: -40px -136px 0 0;
   }
   .footer{
-    width: 163%;
+    width: 154%;
   }
 }
 @media (max-width:458px)  {
@@ -1257,6 +1328,14 @@ body {
   }
   .footer{
     width: 168%;
+  }
+}
+@media (max-width:421px)  {
+  .wrapper{
+    width: 177%;
+  }
+  .footer{
+    width: 177%;
   }
 }
 @media (max-width:414px)  {
@@ -1273,6 +1352,14 @@ body {
   }
   .footer{
     width: 187%;
+  }
+}
+@media (max-width:381px)  {
+  .wrapper{
+    width: 196%;
+  }
+  .footer{
+    width: 196%;
   }
 }
 @media (max-width:379px)  {
@@ -1390,7 +1477,7 @@ body {
   .main__paragragraph-discription {
     font: 14px/18px gotham_pro_light,arial, helvetica, sans-serif;
     padding: 0px 47px 0px 3px;
-    margin-left: -74px;
+    margin-left: -3px;
     max-width: 279px;
   }
   .second__section-column:nth-child(2n) {
@@ -1431,6 +1518,12 @@ body {
   }
   .second__section-details{
     font: 12px gotham_pro_black,arial, helvetica, sans-serif;
+  }
+  .second__section-body{
+    margin: 0px 22px;
+  }
+  .second__section-column {
+    padding: 0 22px;
   }
   .second__section-name {
     color: white;
@@ -1541,9 +1634,20 @@ body {
     margin: 2px 23px 0 14px;
 }
 }
+@media (max-width:323px)  {
+  .wrapper{
+    width: 116%;
+  }
+  .footer{
+    width: 116%;
+  }
+}
 @media (max-width:320px)  {
   .body{
     max-width: 320px;
+  }
+  .wrapper{
+    width: 100%;
   }
   .header{
     margin-left: 15px;
@@ -1595,10 +1699,13 @@ body {
   }
   .main__paragragraph-discription {
     padding: 9px 0px 0px 29px;
-    margin-left: -128px;
+    margin-left: -57px;
   }
   .second__section-column:nth-child(2n) {
     display: none;
+  }
+  .second__section-body {
+    margin: 0px 14px;
   }
   .video__img{
     left: 6px;
@@ -1631,7 +1738,7 @@ body {
     padding: 10px 8px 26px 7px;
   }
   .second__section-text {
-    margin: -19px -10px 23px 1px;
+    margin: -18px -10px 23px 1px;
   }
   .second__section-date{
     font: 14px gotham_pro_black,arial, helvetica, sans-serif;
@@ -1646,6 +1753,9 @@ body {
   }
   .aside__gallery{
     padding: 0 0 0 6px;
+  }
+  .footer{
+    width: 100%;
   }
   .footer__wrap{
     padding: 29px 0 0 40px;
