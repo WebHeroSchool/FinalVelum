@@ -1292,7 +1292,7 @@ body {
   }
   .main__paragragraph-discription {
     left: 109px;
-    18px/23px gotham_pro_light,arial, helvetica, sans-serif;
+    font: 18px/23px gotham_pro_light,arial, helvetica, sans-serif;
   }
   .footer{
     width: 146%;
